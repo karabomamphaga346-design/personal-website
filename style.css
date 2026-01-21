@@ -1,29 +1,146 @@
+.project {
+    margin-bottom: 15px;
+}
+.cv-download a {
+    display: inline-block;
+    background-color: #0f172a;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.cv-download a:hover {
+    background-color: #1e293b;
+}
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: #f9f9f9;
+    padding: 40px 20px;
     text-align: center;
-    padding-top: 50px;
 }
 
-h1 {
-    color: #2c3e50;
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
 }
 
-p {
-    color: #555;
-    font-size: 16px;
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
 }
 
-button:hover {
-    background-color: #0056b3;
+/* Section Titles */
+h2 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* About Me */
+.about img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 4px solid #0f172a;
+    background-color: #f0f4f8;
+    border-radius: 6px;
+}
+
+/* Skills */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #0f172a;
+    color: #fff;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact a {
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Connect / Social Links */
+.connect a {
+    color: #0f172a;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.connect a:hover {
+    text-decoration: underline;
+}
+
+/* CV Download Button */
+.cv-download a {
+    display: inline-block;
+    background-color: #0f172a;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.cv-download a:hover {
+    background-color: #1e293b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f172a;
+    color: #f9f9f9;
 }
